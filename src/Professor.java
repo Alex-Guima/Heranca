@@ -15,6 +15,10 @@ public class Professor extends Pessoa{
     public String getEspecializacao(){
         return this.especializacao;
     }
+    public double aumentoSalario(double percentAumento){
+        salario = salario + (salario * percentAumento/100);
+        return salario;
+    }
 
     public void infProfessor(){
         System.out.printf("Nome: %s%nIdade: %d%nSalario: R$%.2f%nEspecializacao: %s%n",getNome(),getIdade(),getSalario(), getEspecializacao());

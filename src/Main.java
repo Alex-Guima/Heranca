@@ -15,6 +15,9 @@ public class Main {
         fatudo.setSalario(4200.50);
         fatudo.setEspecializacao("Java");
 
+        //Colocar o percentual de aumento como parâmetro
+        fatudo.aumentoSalario(10);
+
         func1.setNome("Funcionario 1");
         func1.setIdade(35);
         func1.setSetor("RH");
