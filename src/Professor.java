@@ -18,6 +18,6 @@ public class Professor extends Pessoa{
 
     public void infProfessor(){
         System.out.printf("Nome: %s%nIdade: %d%nSalario: R$%.2f%nEspecializacao: %s%n",getNome(),getIdade(),getSalario(), getEspecializacao());
-        System.out.println("---------------------------------------------------------");
+        System.out.println("----------------------------------------------");
     }
 }
