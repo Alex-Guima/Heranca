@@ -3,6 +3,7 @@ public class Main {
         //Pessoa alex = new Pessoa();
         Aluno alex = new Aluno();
         Professor fatudo = new Professor();
+        Funcionario func1 = new Funcionario();
 
         alex.setNome("Alex");
         alex.setIdade(20);
@@ -14,7 +15,13 @@ public class Main {
         fatudo.setSalario(4200.50);
         fatudo.setEspecializacao("Java");
 
+        func1.setNome("Funcionario 1");
+        func1.setIdade(35);
+        func1.setSetor("RH");
+        func1.setFuncao("Gerente");
+
         alex.infAluno();
         fatudo.infProfessor();
+        func1.infFuncionario();
     }
 }
