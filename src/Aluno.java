@@ -1,5 +1,5 @@
 public class Aluno extends Pessoa{
-    String curso, matricula;
+    private String curso, matricula;
 
     public void setMatricula(String matricula){
         this.matricula = matricula;
@@ -16,6 +16,7 @@ public class Aluno extends Pessoa{
     }
 
     public void infAluno(){
-        System.out.printf("Nome: %s%nIdade: %d%nMatricula: %s%nCurso: %s%n",getNome(),getIdade(),getMatricula(),getCurso());
+        System.out.printf("Nome: %s%nIdade: %d%nMatricula: %s%nCurso: %s%n",getNome(),getIdade(),getMatricula(), getCurso());
+        System.out.println("----------------------------------------------");
     }
 }

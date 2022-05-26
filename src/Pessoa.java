@@ -1,6 +1,6 @@
 public class Pessoa {
-    String nome;
-    int idade;
+    private String nome;
+    private int idade;
 
     public void setNome(String nome){
         this.nome = nome;
